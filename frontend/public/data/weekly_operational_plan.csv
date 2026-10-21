@@ -1,0 +1,8 @@
+Date,Average Load (kW),Average Renewable (kW),Average Net Load (kW),Average Temperature (°C),Average Wind Speed (m/s),Average Generator Loading (%),Risk Level,Daily Recommendation
+2026-09-28,114.91,17.13,97.78,-11.9,15.51,65.2,Moderate,Prioritize wind generation
+2026-09-29,122.21,0.75,121.45,-16.9,2.31,81.0,Moderate,Operate in optimal generator zone
+2026-09-30,130.59,0.82,129.77,-22.8,2.64,86.5,High,Reduce non-critical loads
+2026-10-01,133.66,0.86,132.8,-21.6,2.11,88.5,High,Reduce non-critical loads
+2026-10-02,129.17,3.26,125.91,-17.5,7.34,83.9,High,Reduce non-critical loads
+2026-10-03,127.34,0.91,126.43,-15.7,3.1,84.3,High,Reduce non-critical loads
+2026-10-04,127.78,7.81,119.97,-16.6,7.97,80.0,Moderate,Operate in optimal generator zone

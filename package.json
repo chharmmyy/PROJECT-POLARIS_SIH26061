@@ -1,0 +1,26 @@
+{
+  "name": "polaris-microgrid-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "POLARIS: Polar Microgrid Telemetry, AI Forecasting & Autonomous Dispatch Optimization Suite",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint",
+    "seed": "node scripts/migrate-and-seed.mjs",
+    "backend:dev": "python -m uvicorn app.main:app --reload --app-dir backend",
+    "backend:train": "python backend/train_models.py"
+  },
+  "keywords": [
+    "microgrid",
+    "polar",
+    "telemetry",
+    "renewable-energy",
+    "gwo-optimizer",
+    "nextjs",
+    "fastapi"
+  ],
+  "author": "POLARIS Team",
+  "license": "MIT"
+}
