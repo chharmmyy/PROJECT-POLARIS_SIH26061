@@ -1,6 +1,6 @@
 import { Pool, QueryResult, QueryResultRow } from 'pg';
 
-const connectionString = process.env.DATABASE_URL || 'postgres://9a864143dccf0d87d380fce7260ade8701501717ae6e7c0b582fa6094a25279a:sk_AQGyczjWHdKjWi5Py9EnY@pooled.db.prisma.io:5432/postgres?sslmode=require';
+const connectionString = (process.env.DATABASE_URL || 'postgres://9a864143dccf0d87d380fce7260ade8701501717ae6e7c0b582fa6094a25279a:sk_AQGyczjWHdKjWi5Py9EnY@pooled.db.prisma.io:5432/postgres?sslmode=verify-full').replace('sslmode=require', 'sslmode=verify-full');
 
 // Preserve pool across hot reloads in development
 declare global {
